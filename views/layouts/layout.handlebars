@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>NBA Player Benefits</title>
+</head>
+<body>
+        {{{body}}}
+        {{#if success_msg}}
+          <div class="alert alert-success">{{success_msg}}</div>
+        {{/if}}
+
+        {{#if error_msg}}
+          <div class="alert alert-danger"><h2 style="font-style: italic;">{{error_msg}}</h2></div>
+        {{/if}}
+
+        {{#if error}}
+          <div class="alert alert-danger"><h2 style="font-style: italic;">{{error}}</h2></div>
+        {{/if}}
+</body>
+</html>

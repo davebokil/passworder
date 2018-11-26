@@ -1,0 +1,88 @@
+/* Imports
+----------------------------------*/
+
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700");
+
+
+/* General
+----------------------------------*/
+body, input, textarea, select {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 13pt;
+  line-height: 1.5em;
+  /*color: #676d79;*/
+  font-weight: 300; }
+
+
+/* Header
+----------------------------------*/
+
+header {
+  padding: 154px 0 0 0 ;
+  background-color: #f48231;
+}
+
+.pagelogo {
+    
+    max-height: 250px;
+    padding-bottom: 20px;
+  }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* Sections
+----------------------------------*/
+
+section {
+  padding: 100px 0;
+}
+
+
+/* Accordion
+----------------------------------*/
+
+.panels {
+  padding-bottom: 50px;
+}
+.panels h3 {
+    outline: none;
+    cursor: pointer;
+    border-bottom: 0.5px solid #ddd;
+    padding: 15px 15px 15px 15px;
+    transition: all 0.2s linear;
+}
+
+.panels i {
+    padding-right: 10px;
+}
+
+.accordionheader {
+  font-style: italic;
+}
+
+article {
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+
+/* Navbar
+----------------------------------*/
+
+nav {
+	background-color: #053f64;
+}
+
+/* Media Queries
+----------------------------------*/
+
+@media screen and (max-width: 992px) {
+  
+  .pagelogo {
+    
+    max-height: 100px;
+  }
+}

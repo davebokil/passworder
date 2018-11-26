@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="/assets/css/login.css" />
+<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<img src="/images/nbpa-logo.png" alt="" style="max-height: 100px; padding-right: 20px;">
+				<img src="/images/nba-logo.png" alt="" style="max-height: 100px;">
+				<h1 style="margin-bottom: -11px;">NBA Player Benefits</h1>
+				<h2 style="font-style: italic;">at a glance</h2>
+				<h3>Welcome to the new site for your benefits information.  Although the site looks different, your password remains the same.</h3>
+			</header>
+
+		<!-- Signup Form -->
+
+			<h3>Please enter your password to access the site.</h3>
+			<!-- <form action="/login" method="post" id="signup-form">
+				<input type="password" name="password" placeholder="Enter Password" />
+				<input type="submit" value="Submit"/>
+				<div style="display: none;">
+				<label>Username:</label>
+				<input type="text" name="username" value="playerbenefits" /><br/>
+				</div>
+			</form> -->
+
+			<form method="post" action="/users/login" id="signup-form">
+			  
+			  <!-- <div class="form-group"> -->
+			    <!-- <label>Password</label> -->
+			    <input type="password" name="password" placeholder="Password">
+			  <!-- </div> -->
+			  <div style="display: none;">
+			    <label>Username</label>
+			    <input type="text" class="form-control" name="username" placeholder="Username" value="playerbenefits">
+			  </div>
+			  <input type="submit" value="Submit"/>
+			</form>
+
+
+			
+
+<!-- 			<h3>If your status as a player is retired, log in here:</h3>
+			<form action="/login" method="post" id="signup-form">
+				
+				<input type="password" name="password" placeholder="Enter Password" />
+				<input type="submit" value="Submit"/>
+				<div style="display: none;">
+				<label>Username:</label>
+				<input type="text" name="username" value="retired" /><br/>
+				</div>
+			</form> -->
+	
+
+		<!-- Footer -->
+			<!-- <footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer> -->
+	</body>
